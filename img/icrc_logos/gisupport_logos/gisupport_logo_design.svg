@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="dessin.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5046"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5048"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#231f20;stroke-width:1pt;stroke-opacity:1;fill:#231f20;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4764"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#231f20;stroke-width:1pt;stroke-opacity:1;fill:#231f20;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <font
+       horiz-adv-x="1024"
+       id="font4257"
+       inkscape:label="fonte 1">
+      <font-face
+         units-per-em="1024"
+         id="font-face4259"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph4261" />
+    </font>
+    <path
+       inkscape:connector-curvature="0"
+       id="path103036-1-3"
+       d="m 289.64083,354.79709 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4359-9"
+       d="m 238.32072,194.18342 c 11.62246,-48.59616 59.31023,-87.37461 109.42537,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path103036-1-8"
+       d="m 289.64083,354.79709 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4359-92"
+       d="m 238.32072,194.18342 c 11.62246,-48.59616 59.31023,-87.37461 109.42537,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path103036-1-3-5"
+       d="m 289.64083,354.79709 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4359-9-4"
+       d="m 238.32072,194.18342 c 11.62246,-48.59616 59.31023,-87.37461 109.42537,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 87.288049,382.00212 c 11.62246,-48.59616 59.310231,-87.37461 109.425371,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+       id="path4359-1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 87.288049,382.00212 c 11.62246,-48.59616 59.310231,-87.37461 109.425371,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+       id="path4359-1-1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path103036-1-8-8"
+       d="m 289.64083,354.79709 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 87.288049,382.00212 c 11.62246,-48.59616 59.310231,-87.37461 109.425371,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+       id="path4359-1-10"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path103036-1-8-8-7"
+       d="m 289.64083,354.79709 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 87.288049,382.00212 c 11.62246,-48.59616 59.310231,-87.37461 109.425371,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+       id="path4359-1-10-1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path103036-1-8-8-1"
+       d="m 289.64083,354.79709 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 87.288049,382.00212 c 11.62246,-48.59616 59.310231,-87.37461 109.425371,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+       id="path4359-1-10-3"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="-82.702889"
+     inkscape:cy="391.05812"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#231f20;stroke-width:1;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5379"
+       width="406.42856"
+       height="383.57144"
+       x="807.72064"
+       y="99.824539" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 197.5388,255.53294 c 84.8463,0 154.05151,69.21766 154.05151,154.07638 0,84.83376 -69.20521,154.02647 -154.05151,154.02647 -84.8463,0 -154.051511,-69.19271 -154.051511,-154.02647 0,-84.85872 69.205211,-154.07638 154.051511,-154.07638"
+       id="path103000"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 197.5388,255.53294 c 84.8463,0 154.05151,69.21766 154.05151,154.07638 0,84.83376 -69.20521,154.02647 -154.05151,154.02647 -84.8463,0 -154.051511,-69.19271 -154.051511,-154.02647 0,-84.85872 69.205211,-154.07638 154.051511,-154.07638 z"
+       id="path103004"
+       style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 197.5388,303.85922 c 58.23275,0 105.75516,47.52239 105.75516,105.74261 0,58.22023 -47.52241,105.74262 -105.75516,105.74262 -58.25772,0 -105.730201,-47.52239 -105.730201,-105.74262 0,-58.22022 47.472481,-105.74261 105.730201,-105.74261 z"
+       id="path103036"
+       style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path4408"
+       d="m 187.6163,476.91561 0,-8.3025 q -31.3875,0 -53.6625,-22.275 -2.43,-2.43 -2.43,-5.97375 0,-3.54375 2.43,-5.97375 2.43,-2.43 5.97375,-2.43 3.54375,0 5.97375,2.43 17.2125,17.2125 41.715,17.2125 24.705,0 41.9175,-17.2125 17.2125,-17.2125 17.2125,-41.715 0,-24.705 -17.2125,-41.9175 l -6.075,-5.8725 17.415,-17.2125 q 2.43,-2.43 5.97375,-2.43 3.54375,0 5.97375,2.43 2.43,2.43 2.32875,5.8725 -0.10125,3.4425 -2.53125,5.8725 l -5.67,5.8725 q 16.605,20.655 16.605,47.385 0,31.3875 -22.275,53.6625 -15.5925,15.5925 -36.6525,20.25 l 0,10.3275 33.615,0 q 3.4425,0 5.97375,2.53125 2.53125,2.53125 2.53125,5.97375 0,3.4425 -2.53125,5.97375 -2.53125,2.53125 -5.97375,2.53125 l -84.24,0 q -3.4425,0 -5.97375,-2.53125 -2.53125,-2.53125 -2.53125,-5.97375 0,-3.4425 2.53125,-5.97375 2.53125,-2.53125 5.97375,-2.53125 l 33.615,0 z m -50.625,-84.24 q 0,-20.8575 14.88375,-35.74125 14.88375,-14.88375 35.74125,-14.88375 20.8575,0 35.74125,14.88375 14.88375,14.88375 14.88375,35.74125 0,20.8575 -14.88375,35.74125 -14.88375,14.88375 -35.74125,14.88375 -20.8575,0 -35.74125,-14.88375 -14.88375,-14.88375 -14.88375,-35.74125 z"
+       inkscape:connector-curvature="0"
+       style="fill:#231f20;fill-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 175.1195,387.17506 0,-53.86369 44.8386,0 0,53.86369 53.85123,0 0,44.86353 -53.85123,0 0,53.83873 -44.8386,0 0,-53.83873 -53.86373,0 0,-44.86353 53.86373,0 z"
+       id="path103040"
+       style="fill:#ed1c24;fill-opacity:0;fill-rule:nonzero;stroke:none"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3387-4"
+       sodipodi:linespacing="125%"
+       transform="translate(-2.7659974,2.0203052)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><textPath
+         xlink:href="#path103036-1"
+         id="textPath4403"><tspan
+   id="tspan3417"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1">ICRC</tspan></textPath></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3387-4-1"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.97591676,0.21814324,-0.21814324,0.97591676,94.639677,-33.208192)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><textPath
+         xlink:href="#path4359"
+         id="textPath4364"><tspan
+           id="tspan3417-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1">GISupport</tspan></textPath></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.2249763px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="m 138.40402,542.36015 29.29287,11.35385 27.39641,1.90026 30.61955,-2.85039 31.42529,-10.45147"
+       id="path4281"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 87.288049,382.00212 c 11.62246,-48.59616 59.310231,-87.37461 109.425371,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+       id="path4359"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 138.60816,542.61579 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+       id="path103036-1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 1006.0258,656.28857 c 84.8463,0 154.0515,69.21767 154.0515,154.07639 0,84.83376 -69.2052,154.02647 -154.0515,154.02647 -84.84632,0 -154.05153,-69.19271 -154.05153,-154.02647 0,-84.85872 69.20521,-154.07639 154.05153,-154.07639"
+       id="path103000-0"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_2.png" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 1006.0258,656.28857 c 84.8463,0 154.0515,69.21767 154.0515,154.07639 0,84.83376 -69.2052,154.02647 -154.0515,154.02647 -84.84632,0 -154.05153,-69.19271 -154.05153,-154.02647 0,-84.85872 69.20521,-154.07639 154.05153,-154.07639 z"
+       id="path103004-8"
+       style="opacity:1;fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_2.png" />
+    <path
+       id="path4678"
+       d="m 1006.1508,729.33999 c 45.25,0 81,36.00001 81,80.75001 0,45.25 -35.75,81.25 -81,81.25 -45.00002,0 -81.25002,-36 -81.25002,-81.25 0,-44.75 36.25,-80.75001 81.25002,-80.75001 z m 4.5,146.75001 c 13,0 20,-22.5 23.25,-33.75 -7.75,0.75 -15.5,1.25 -23.25,1.5 l 0,32.25 z m -25.75002,-16.25 c 3.75,9 9.5,16.25 16.25002,16.25 l 0,-32.25 c -7.75002,-0.25 -15.50002,-0.75 -23.00002,-1.5 1.5,6.5 3.75,12.25 6.75,17.5 z m -44.5,-40.5 c 3.25,3.75 11.5,8.75 26.5,11.5 -1,-6.25 -1.5,-13.25 -1.5,-20 0,-5 0.25,-9 0.75,-13.75 -11.5,-2.25 -18.25,-4 -23.5,-6.25 -1.75,6 -2.75,12.75 -2.75,19.25 0,3.25 0,6.5 0.5,9.25 z m 34,-8.5 c 0,7.25 0.5,15 1.5,21.75 8.5,1.5 16.75,2.25 25.25002,2.5 l 0,-35.25 c -9.00002,-0.25 -18.00002,-0.75 -26.50002,-1.75 0,4.5 -0.25,8.25 -0.25,12.75 z m 26.25002,-66.25001 c -11.25002,4.5 -20.75002,22.00001 -24.75002,45.00001 8.25,0.75 16.75,1.25 25.25002,1.5 l 0,-46.50001 -0.5,0 z m 16.5,3.5 c -2.25,-1.5 -4.75,-3.5 -6.5,-3.5 l 0,46.50001 c 8.75,-0.25 17,-0.75 25.5,-1.5 -3.25,-18 -10.5,-33.75 -19,-41.50001 z m -6.5,87.00001 c 8.75,-0.25 17,-1 25.25,-2.25 1.25,-6.75 1.5,-14.5 1.5,-22 0,-4.5 0,-8.25 -0.25,-12.5 -8.5,0.75 -17.25,1.25 -26.5,1.5 l 0,35.25 z m 35.25,-38 c 0.5,4.75 0.5,8.75 0.5,13.75 0,6.75 -0.5,14 -1.25,20.25 26,-4.25 27,-10.25 27,-21 0,-6.25 -1,-13 -3,-19 -4.75,2 -13.25,5 -23.25,6 z m 19.75,-14.75 c -7,-15.5 -20.25,-28 -35.75,-33.50001 7.5,9.75001 12.25,23.50001 14.75,39.75001 13.5,-2.5 19,-4.75 21,-6.25 z m -106.25002,-18.5 c -5.75,5.25 -10,11.75 -13,18.25 2.25,2 6,2.25 20.75,6.25 2.75,-16 7.5,-29.25 15,-39.25001 -8.5,4.00001 -16,7.50001 -22.75,14.75001 z m 0,93 c 6,6.5 13.5,11 21.25,14.25 -5.75,-8 -9.5,-18.25 -12,-30.25 -10,-2.25 -19,-5 -25,-8.25 3.75,9.25 8.5,17.5 15.75,24.25 z m 93.25002,0 c 7,-6.5 11.75,-14.5 15,-23.25 -6.5,3 -15,5.5 -24.25,7.5 -2.75,12 -6.25,21.75 -12.25,30 7.75,-3.25 15.5,-7.75 21.5,-14.25 z"
+       inkscape:connector-curvature="0"
+       style="fill:#231f20;fill-opacity:1;stroke:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_2.png" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 1006.0258,704.61486 c 58.2327,0 105.7551,47.52239 105.7551,105.74261 0,58.22023 -47.5224,105.74262 -105.7551,105.74262 -58.25774,0 -105.73022,-47.52239 -105.73022,-105.74262 0,-58.22022 47.47248,-105.74261 105.73022,-105.74261 z"
+       id="path103036-2"
+       style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_2.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3387-4-4"
+       sodipodi:linespacing="125%"
+       x="204.99213"
+       y="200.26135"
+       transform="translate(654.68832,590.32318)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_2.png"><textPath
+         xlink:href="#path103036-1-3"
+         id="textPath4403-4"><tspan
+   id="tspan3417-7"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1">ICRC</tspan></textPath></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.2249763px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="m 946.891,943.11579 29.29287,11.35385 27.39643,1.90026 30.6195,-2.85039 31.4253,-10.45147"
+       id="path4281-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_2.png" />
+    <path
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="M 895.77503,782.75776 C 907.39749,734.1616 955.08526,695.38315 1005.2004,696.047 l 0,0 c 46.0232,-1.49026 89.5697,28.60102 106.7598,70.7832 2.1833,4.99088 3.9349,10.12669 5.2709,15.35483"
+       id="path4596"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_2.png" />
+    <path
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 947.09514,943.37143 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.72607,10.2898 107.45867,-4.3178"
+       id="path4598"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_2.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3387-4-1-4"
+       sodipodi:linespacing="125%"
+       x="-148.56126"
+       y="462.90103"
+       transform="translate(-518.25825,550.34807)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><textPath
+         xlink:href="#path4359-92"
+         id="textPath4364-82"><tspan
+   id="tspan3417-8-6"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1">GISUPPORT</tspan></textPath></text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 142.5791,118.59364 0,-53.863679 44.83862,0 0,53.863679 53.85123,0 0,44.86355 -53.85123,0 0,53.83873 -44.83862,0 0,-53.83873 -53.86372,0 0,-44.86354 53.86372,0 z"
+       id="path103040-3-2"
+       style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="237.14284"
+       y="78.076485"
+       id="text5186"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="237.14284"
+         y="78.076485"
+         id="tspan5194">Gisupport logo design</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 995.57778,142.20168 c 84.84632,0 154.05152,69.21767 154.05152,154.07639 0,84.83376 -69.2052,154.02647 -154.05152,154.02647 -84.8463,0 -154.05151,-69.19271 -154.05151,-154.02647 0,-84.85872 69.20521,-154.07639 154.05151,-154.07639"
+       id="path103000-0-8"
+       style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#ffffff;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_white.png" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 995.57778,142.20168 c 84.84632,0 154.05152,69.21767 154.05152,154.07639 0,84.83376 -69.2052,154.02647 -154.05152,154.02647 -84.8463,0 -154.05151,-69.19271 -154.05151,-154.02647 0,-84.85872 69.20521,-154.07639 154.05151,-154.07639 z"
+       id="path103004-8-4"
+       style="opacity:1;fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_white.png" />
+    <path
+       id="path4678-8"
+       d="m 995.70278,215.2531 c 45.25002,0 81.00002,36.00001 81.00002,80.75001 0,45.25 -35.75,81.25 -81.00002,81.25 -45,0 -81.25,-36 -81.25,-81.25 0,-44.75 36.25,-80.75001 81.25,-80.75001 z m 4.50002,146.75001 c 13,0 20,-22.5 23.25,-33.75 -7.75,0.75 -15.5,1.25 -23.25,1.5 l 0,32.25 z m -25.75002,-16.25 c 3.75,9 9.5,16.25 16.25,16.25 l 0,-32.25 c -7.75,-0.25 -15.5,-0.75 -23,-1.5 1.5,6.5 3.75,12.25 6.75,17.5 z m -44.5,-40.5 c 3.25,3.75 11.5,8.75 26.5,11.5 -1,-6.25 -1.5,-13.25 -1.5,-20 0,-5 0.25,-9 0.75,-13.75 -11.5,-2.25 -18.25,-4 -23.5,-6.25 -1.75,6 -2.75,12.75 -2.75,19.25 0,3.25 0,6.5 0.5,9.25 z m 34,-8.5 c 0,7.25 0.5,15 1.5,21.75 8.5,1.5 16.75,2.25 25.25,2.5 l 0,-35.25 c -9,-0.25 -18,-0.75 -26.5,-1.75 0,4.5 -0.25,8.25 -0.25,12.75 z m 26.25,-66.25001 c -11.25,4.5 -20.75,22.00001 -24.75,45.00001 8.25,0.75 16.75,1.25 25.25,1.5 l 0,-46.50001 -0.5,0 z m 16.50002,3.5 c -2.25,-1.5 -4.75,-3.5 -6.5,-3.5 l 0,46.50001 c 8.75,-0.25 17,-0.75 25.5,-1.5 -3.25,-18 -10.5,-33.75 -19,-41.50001 z m -6.5,87.00001 c 8.75,-0.25 17,-1 25.25,-2.25 1.25,-6.75 1.5,-14.5 1.5,-22 0,-4.5 0,-8.25 -0.25,-12.5 -8.5,0.75 -17.25,1.25 -26.5,1.5 l 0,35.25 z m 35.25,-38 c 0.5,4.75 0.5,8.75 0.5,13.75 0,6.75 -0.5,14 -1.25,20.25 26,-4.25 27,-10.25 27,-21 0,-6.25 -1,-13 -3,-19 -4.75,2 -13.25,5 -23.25,6 z m 19.75,-14.75 c -7,-15.5 -20.25,-28 -35.75,-33.50001 7.5,9.75001 12.25,23.50001 14.75,39.75001 13.5,-2.5 19,-4.75 21,-6.25 z m -106.25002,-18.5 c -5.75,5.25 -10,11.75 -13,18.25 2.25,2 6,2.25 20.75,6.25 2.75,-16 7.5,-29.25 15,-39.25001 -8.5,4.00001 -16,7.50001 -22.75,14.75001 z m 0,93 c 6,6.5 13.5,11 21.25,14.25 -5.75,-8 -9.5,-18.25 -12,-30.25 -10,-2.25 -19,-5 -25,-8.25 3.75,9.25 8.5,17.5 15.75,24.25 z m 93.25002,0 c 7,-6.5 11.75,-14.5 15,-23.25 -6.5,3 -15,5.5 -24.25,7.5 -2.75,12 -6.25,21.75 -12.25,30 7.75,-3.25 15.5,-7.75 21.5,-14.25 z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_white.png" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 995.57778,190.52797 c 58.23272,0 105.75512,47.52239 105.75512,105.74261 0,58.22023 -47.5224,105.74262 -105.75512,105.74262 -58.25772,0 -105.7302,-47.52239 -105.7302,-105.74262 0,-58.22022 47.47248,-105.74261 105.7302,-105.74261 z"
+       id="path103036-2-0"
+       style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_white.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3387-4-4-5"
+       sodipodi:linespacing="125%"
+       x="204.99213"
+       y="200.26135"
+       transform="translate(644.24032,76.236294)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_white.png"><textPath
+         xlink:href="#path103036-1-3-5"
+         id="textPath4403-4-7"><tspan
+   id="tspan3417-7-0"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#ffffff;fill-opacity:1">ICRC</tspan></textPath></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3387-4-1-1-7"
+       sodipodi:linespacing="125%"
+       x="204.99213"
+       y="200.26135"
+       transform="translate(646.18833,76.236294)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_white.png"><textPath
+         xlink:href="#path4359-9-4"
+         id="textPath4364-8-7"><tspan
+   id="tspan3417-8-0-2"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#ffffff;fill-opacity:1">GISUPPORT</tspan></textPath></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.2249763px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="m 936.443,429.0289 29.29287,11.35385 27.39641,1.90026 30.61952,-2.85039 31.4253,-10.45147"
+       id="path4281-7-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_white.png" />
+    <path
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 885.32703,268.67087 c 11.62246,-48.59616 59.31023,-87.37461 109.42537,-86.71076 l 0,0 c 46.0232,-1.49026 89.5696,28.60102 106.7598,70.7832 2.1833,4.99088 3.9349,10.12669 5.2708,15.35483"
+       id="path4596-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_white.png" />
+    <path
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 936.64714,429.28454 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.72607,10.2898 107.45867,-4.3178"
+       id="path4598-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_white.png" />
+    <g
+       id="g5725"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_3.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path103000-4"
+         d="m 202.86734,639.18669 c 84.8463,0 154.05151,69.21766 154.05151,154.07638 0,84.83376 -69.20521,154.02647 -154.05151,154.02647 -84.8463,0 -154.051507,-69.19271 -154.051507,-154.02647 0,-84.85872 69.205207,-154.07638 154.051507,-154.07638"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_3.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+         id="path103004-3"
+         d="m 202.86734,639.18669 c 84.8463,0 154.05151,69.21766 154.05151,154.07638 0,84.83376 -69.20521,154.02647 -154.05151,154.02647 -84.8463,0 -154.051507,-69.19271 -154.051507,-154.02647 0,-84.85872 69.205207,-154.07638 154.051507,-154.07638 z"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_3.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+         id="path103036-24"
+         d="m 202.86734,687.51297 c 58.23275,0 105.75516,47.52239 105.75516,105.74261 0,58.22023 -47.52241,105.74262 -105.75516,105.74262 -58.25772,0 -105.730197,-47.52239 -105.730197,-105.74262 0,-58.22022 47.472477,-105.74261 105.730197,-105.74261 z"
+         inkscape:connector-curvature="0" />
+      <text
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_3.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         transform="translate(-148.47012,572.57143)"
+         y="462.90103"
+         x="-148.56126"
+         sodipodi:linespacing="125%"
+         id="text3387-4-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><textPath
+           id="textPath4403-5"
+           xlink:href="#path103036-1-8"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1"
+   id="tspan3417-84">ICRC</tspan></textPath></text>
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_3.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4281-1"
+         d="m 143.73256,926.0139 29.29287,11.35385 27.39641,1.90026 30.61955,-2.85039 31.42529,-10.45147"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.2249763px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_3.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:connector-curvature="0"
+         id="path4596-4"
+         d="M 92.616593,765.65587 C 104.23905,717.05971 151.92682,678.28126 202.04196,678.94511 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+         style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_3.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:connector-curvature="0"
+         id="path4598-4"
+         d="m 143.9367,926.26954 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+         style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_3.png"
+         style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path103040-3-2-9"
+         d="m 180.45428,770.81881 0,-53.86368 44.83862,0 0,53.86368 53.85123,0 0,44.86355 -53.85123,0 0,53.83874 -44.83862,0 0,-53.83873 -53.86372,0 0,-44.86354 53.86372,0 z"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_3.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="fill:#231f20;fill-opacity:1;opacity:0.99"
+         inkscape:connector-curvature="0"
+         d="m 202.8698,687.39812 c 58.45509,0 105.83755,47.38736 105.83755,105.84248 0,58.4551 -47.38244,105.83752 -105.83755,105.83752 -58.45511,0 -105.842481,-47.38244 -105.842481,-105.83752 0,-58.45512 47.387371,-105.84248 105.842481,-105.84248 z m 0,15.11982 c -4.58874,0 -9.10017,0.34025 -13.50658,0.99804 -0.94141,2.05397 -1.61324,4.30842 -1.61324,6.56291 0,7.55886 -7.56095,-7.56095 -15.12189,7.55886 -7.55845,15.12189 0,0 0,15.12189 0,7.55847 -10.94163,2.0891 -7.55845,3.77924 7.55845,3.77965 7.55845,3.77965 0,11.34059 0,0 -15.12189,-7.56094 -15.12189,0 0,7.56095 -7.55847,7.56095 -15.11941,7.56095 -7.56095,0 0,15.1194 -7.56095,15.1194 -5.81252,0 -2.68611,-8.93851 -7.80364,-13.07 -1.94439,4.53252 -3.53199,9.25357 -4.72351,14.13129 5.09395,4.5652 5.94771,22.59892 12.52715,29.18334 7.56095,-7.56343 7.56095,0 15.12189,0 7.55847,0 7.55847,0 11.34017,7.55389 7.55889,0 11.3406,7.56342 18.89906,15.12686 7.56093,7.55392 22.68077,7.55392 22.68077,15.11692 0,7.56343 -7.55888,0 -7.55888,15.11735 0,7.56343 0,7.56343 -7.56095,7.56343 -4.76072,0 -9.52146,8.99019 -12.39402,15.64653 10.78988,4.53253 22.64108,7.03175 35.0748,7.03175 25.39456,0 48.34573,-10.42647 64.81501,-27.2385 l -4.33655,-8.67351 c 0,0 9.45656,-15.11693 1.89312,-22.68036 -7.56342,-7.55391 -7.56342,-15.11733 -7.56342,-15.11733 0,0 -15.11692,15.11733 -22.68036,7.56342 -7.55391,-7.56342 -7.55391,0 -15.11733,-15.12684 -7.56342,-15.11694 7.56342,-22.6783 7.56342,-22.6783 0,0 0,-15.1194 7.55391,-15.1194 7.56344,0 15.12686,-15.11981 30.24378,0 0,0 8.73842,-5.8241 21.1023,-7.24878 -3.87972,-9.08117 -9.19281,-17.39994 -15.66559,-24.66942 -1.35648,0.97447 -3.13344,1.6765 -5.43671,1.6765 -7.56342,0 7.56344,15.12189 0,15.12189 -7.56342,0 -7.56342,-7.56095 -15.11692,-7.56095 -7.56342,0 -7.56342,7.56095 -15.12686,15.11982 -7.55391,7.56094 0,0 -7.55391,-7.55887 -7.56342,-7.56095 15.11735,0 7.55391,-7.56095 -7.55391,-7.56094 7.56344,-7.56094 7.56344,-15.1194 0,-5.9316 9.30234,-7.20912 13.31268,-7.48612 -4.36011,-3.14502 -9.01376,-5.91298 -13.31268,-7.63577 7.56342,7.56094 -7.56344,15.12189 -15.11735,15.12189 -7.10616,0 -0.86738,-13.3429 -0.084,-21.22589 -7.78792,-2.18048 -16.00416,-3.34636 -24.49038,-3.34636 z m -90.72266,90.72266 c 0,26.6812 11.52002,50.6771 29.85929,67.27746 l -7.17852,-14.3529 c -7.56095,0 -11.34059,-17.01048 -11.34059,-24.5739 0,-6.06678 -2.43432,-10.916 0.51059,-16.50237 -10.66668,-10.71299 -4.29024,-4.90502 -4.29024,-11.84829 0,-3.59979 -3.42697,-7.19712 -7.01769,-9.98121 -0.35886,3.27815 -0.54284,6.60755 -0.54284,9.98121 z"
+         id="path4737" />
+      <text
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_3.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         transform="matrix(0.97591676,0.21814324,-0.21814324,0.97591676,99.96822,350.7978)"
+         sodipodi:linespacing="125%"
+         id="text3387-4-1-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"
+         x="-42.208145"
+         y="-302.30905"><textPath
+           id="textPath4364-3"
+           xlink:href="#path4359-1"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1"
+   id="tspan3417-8-61">GISupport</tspan></textPath></text>
+    </g>
+    <text
+       y="-302.30905"
+       x="-42.208145"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3387-4-1-8-4"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.97591676,0.21814324,-0.21814324,0.97591676,903.12666,367.18257)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo3_2.png"><textPath
+         xlink:href="#path4359-1-1"
+         id="textPath4364-3-3"><tspan
+   id="tspan3417-8-61-7"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1">GISupport</tspan></textPath></text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 202.86734,694.6452 c 54.30162,0 98.59297,44.2993 98.59297,98.60889 0,54.2936 -44.29135,98.57693 -98.59297,98.57693 -54.30163,0 -98.59296,-44.28333 -98.59296,-98.57693 0,-54.30958 44.29133,-98.60888 98.59296,-98.60888 z"
+       id="path103004-3-8"
+       style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_6.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="822.32605"
+       y="64.991882"
+       id="text5186-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="822.32605"
+         y="64.991882"
+         id="tspan5194-0">the transparent/white is here!</tspan><tspan
+         sodipodi:role="line"
+         x="822.32605"
+         y="114.99188"
+         id="tspan5663" /></text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 574.1707,635.26706 c 84.8463,0 154.05151,69.21766 154.05151,154.07638 0,84.83376 -69.20521,154.02647 -154.05151,154.02647 -84.8463,0 -154.05151,-69.19271 -154.05151,-154.02647 0,-84.85872 69.20521,-154.07638 154.05151,-154.07638"
+       id="path103000-4-2"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo5_2.png" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 574.1707,635.26706 c 84.8463,0 154.05151,69.21766 154.05151,154.07638 0,84.83376 -69.20521,154.02647 -154.05151,154.02647 -84.8463,0 -154.05151,-69.19271 -154.05151,-154.02647 0,-84.85872 69.20521,-154.07638 154.05151,-154.07638 z"
+       id="path103004-3-7"
+       style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo5_2.png" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 574.1707,683.59334 c 58.23275,0 105.75516,47.52239 105.75516,105.74261 0,58.22023 -47.52241,105.74262 -105.75516,105.74262 -58.25772,0 -105.7302,-47.52239 -105.7302,-105.74262 0,-58.22022 47.47248,-105.74261 105.7302,-105.74261 z"
+       id="path103036-24-8"
+       style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo5_2.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3387-4-7-2"
+       sodipodi:linespacing="125%"
+       x="74.271973"
+       y="1031.5529"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo5_2.png"
+       transform="translate(224.83324,568)"><textPath
+         xlink:href="#path103036-1-8-8"
+         id="textPath4403-5-4"><tspan
+   id="tspan3417-84-6"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1">ICRC</tspan></textPath></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.2249763px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="m 515.03592,922.09427 29.29287,11.35385 27.39641,1.90026 30.61955,-2.85039 31.42529,-10.45147"
+       id="path4281-1-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo5_2.png" />
+    <path
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 463.91995,761.73624 c 11.62246,-48.59616 59.31023,-87.37461 109.42537,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+       id="path4596-4-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo5_2.png" />
+    <path
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0"
+       d="m 515.24006,922.34991 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+       id="path4598-4-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo5_2.png" />
+    <path
+       id="path4737-3"
+       d="m 574.17263,706.35889 c 45.81832,0 82.95768,37.14322 82.95768,82.96153 0,45.81833 -37.13935,82.95767 -82.95768,82.95767 -45.81832,0 -82.96155,-37.13934 -82.96155,-82.95767 0,-45.81831 37.14323,-82.96153 82.96155,-82.96153 z m 0,11.85124 c -3.59676,0 -7.13292,0.26669 -10.58674,0.78228 -0.73791,1.60994 -1.26449,3.37704 -1.26449,5.14416 0,5.92477 -5.92643,-5.92644 -11.85285,5.92477 -5.92447,11.85287 0,0 0,11.85287 0,5.92447 -8.57628,1.63747 -5.92447,2.96224 5.92447,2.96255 5.92447,2.96255 0,8.88898 0,0 -11.85287,-5.92643 -11.85287,0 0,5.92642 -5.92446,5.92642 -11.85088,5.92642 -5.92643,0 0,11.85092 -5.92643,11.85092 -4.55598,0 -2.10543,-7.00619 -6.11666,-10.24453 -1.52405,3.55267 -2.76845,7.25314 -3.7024,11.07638 3.99274,3.5783 4.66195,17.71352 9.81906,22.87451 5.92643,-5.92837 5.92643,0 11.85285,0 5.92446,0 5.92446,0 8.88865,5.92091 5.92482,0 8.88903,5.92837 14.81348,11.85675 5.92642,5.92092 17.77766,5.92092 17.77766,11.84894 0,5.92839 -5.92481,0 -5.92481,11.84929 0,5.92838 0,5.92838 -5.92643,5.92838 -3.73155,0 -7.4631,7.04669 -9.71469,12.26409 8.45733,3.55268 17.74654,5.51163 27.49235,5.51163 19.9048,0 37.8944,-8.17249 50.80336,-21.3501 l -3.39909,-6.7985 c 0,0 7.41226,-11.84894 1.48387,-17.77732 -5.92837,-5.92091 -5.92837,-11.84928 -5.92837,-11.84928 0,0 -11.84893,11.84928 -17.77732,5.92837 -5.92091,-5.92837 -5.92091,0 -11.84929,-11.85674 -5.92836,-11.84898 5.92838,-17.77573 5.92838,-17.77573 0,0 0,-11.85088 5.92091,-11.85088 5.92839,0 11.85675,-11.85125 23.70569,0 0,0 6.84935,-4.56507 16.54044,-5.68174 -3.04102,-7.11804 -7.2055,-13.63844 -12.27903,-19.33644 -1.06323,0.76382 -2.45607,1.31409 -4.26141,1.31409 -5.92837,0 5.92839,11.85284 0,11.85284 -5.92837,0 -5.92837,-5.92642 -11.84894,-5.92642 -5.92837,0 -5.92837,5.92642 -11.85675,11.85124 -5.92091,5.92643 0,0 -5.92091,-5.92482 -5.92838,-5.92642 11.84929,0 5.92091,-5.92642 -5.92091,-5.92642 5.92838,-5.92642 5.92838,-11.8509 0,-4.64931 7.29136,-5.65065 10.43474,-5.86777 -3.41753,-2.46514 -7.06517,-4.63473 -10.43474,-5.98508 5.92837,5.92643 -5.92838,11.85285 -11.84929,11.85285 -5.56995,0 -0.67986,-10.45844 -0.0658,-16.6373 -6.10434,-1.70909 -12.5444,-2.62294 -19.19608,-2.62294 z m -71.11031,71.11029 c 0,20.91328 9.02964,39.72179 23.40435,52.73348 l -5.6267,-11.25011 c -5.92641,0 -8.88898,-13.33314 -8.88898,-19.26151 0,-4.75528 -1.90806,-8.5562 0.4002,-12.9349 -8.36076,-8.39707 -3.36276,-3.84467 -3.36276,-9.28696 0,-2.82158 -2.68615,-5.64124 -5.50062,-7.82346 -0.28127,2.56947 -0.42549,5.17913 -0.42549,7.82346 z"
+       inkscape:connector-curvature="0"
+       style="opacity:0.98999999;fill:#ed1c24;fill-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo5_2.png" />
+    <text
+       y="-66.589539"
+       x="493.38281"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3387-4-1-8-9"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.97591676,0.21814324,-0.21814324,0.97591676,471.5189,344.58283)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo5_2.png"><textPath
+         xlink:href="#path4359-1-10"
+         id="textPath4364-3-0"><tspan
+   id="tspan3417-8-61-3"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1">GISupport</tspan></textPath></text>
+    <g
+       transform="translate(-12.1707,433.04372)"
+       id="g5872">
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_4.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path103000-4-2-5"
+         d="m 574.1707,635.26706 c 84.8463,0 154.05151,69.21766 154.05151,154.07638 0,84.83376 -69.20521,154.02647 -154.05151,154.02647 -84.8463,0 -154.05151,-69.19271 -154.05151,-154.02647 0,-84.85872 69.20521,-154.07638 154.05151,-154.07638"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_4.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+         id="path103004-3-7-3"
+         d="m 574.1707,635.26706 c 84.8463,0 154.05151,69.21766 154.05151,154.07638 0,84.83376 -69.20521,154.02647 -154.05151,154.02647 -84.8463,0 -154.05151,-69.19271 -154.05151,-154.02647 0,-84.85872 69.20521,-154.07638 154.05151,-154.07638 z"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_4.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+         id="path103036-24-8-5"
+         d="m 574.1707,683.59334 c 58.23275,0 105.75516,47.52239 105.75516,105.74261 0,58.22023 -47.52241,105.74262 -105.75516,105.74262 -58.25772,0 -105.7302,-47.52239 -105.7302,-105.74262 0,-58.22022 47.47248,-105.74261 105.7302,-105.74261 z"
+         inkscape:connector-curvature="0" />
+      <text
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_4.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         transform="translate(222.83324,568.6518)"
+         y="462.90103"
+         x="-148.56126"
+         sodipodi:linespacing="125%"
+         id="text3387-4-7-2-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><textPath
+           id="textPath4403-5-4-5"
+           xlink:href="#path103036-1-8-8-7"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1"
+   id="tspan3417-84-6-8">ICRC</tspan></textPath></text>
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_4.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4281-1-6-5"
+         d="m 515.03592,922.09427 29.29287,11.35385 27.39641,1.90026 30.61955,-2.85039 31.42529,-10.45147"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.2249763px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_4.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:connector-curvature="0"
+         id="path4596-4-5-1"
+         d="m 463.91995,761.73624 c 11.62246,-48.59616 59.31023,-87.37461 109.42537,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+         style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_4.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:connector-curvature="0"
+         id="path4598-4-1-4"
+         d="m 515.24006,922.34991 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+         style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_4.png"
+         style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path103040-3-2-9-2-8"
+         d="m 559.82634,774.97013 0,-34.47275 28.69672,0 0,34.47275 34.46478,0 0,28.71267 -34.46478,0 0,34.45679 -28.69672,0 0,-34.45678 -34.47278,0 0,-28.71266 34.47278,0 z"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_4.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="opacity:0.98999999;fill:#231f20;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m 574.17316,683.47849 c 58.45509,0 105.83755,47.38736 105.83755,105.84248 0,58.4551 -47.38244,105.83752 -105.83755,105.83752 -58.45511,0 -105.84248,-47.38244 -105.84248,-105.83752 0,-58.45512 47.38737,-105.84248 105.84248,-105.84248 z m 0,15.11982 c -4.58874,0 -9.10017,0.34025 -13.50658,0.99804 -0.94141,2.05397 -1.61324,4.30842 -1.61324,6.56291 0,7.55886 -7.56095,-7.56095 -15.12189,7.55886 -7.55845,15.12189 0,0 0,15.12189 0,7.55847 -10.94163,2.0891 -7.55845,3.77924 7.55845,3.77965 7.55845,3.77965 0,11.34059 0,0 -15.12189,-7.56094 -15.12189,0 0,7.56095 -7.55847,7.56095 -15.11941,7.56095 -7.56095,0 0,15.1194 -7.56095,15.1194 -5.81252,0 -2.68611,-8.93851 -7.80364,-13.07 -1.94439,4.53252 -3.53199,9.25357 -4.72351,14.13129 5.09395,4.5652 5.94771,22.59892 12.52715,29.18334 7.56095,-7.56343 7.56095,0 15.12189,0 7.55847,0 7.55847,0 11.34017,7.55389 7.55889,0 11.3406,7.56342 18.89906,15.12686 7.56093,7.55392 22.68077,7.55392 22.68077,15.11692 0,7.56343 -7.55888,0 -7.55888,15.11735 0,7.56343 0,7.56343 -7.56095,7.56343 -4.76072,0 -9.52146,8.99019 -12.39402,15.64653 10.78988,4.53253 22.64108,7.03175 35.0748,7.03175 25.39456,0 48.34573,-10.42647 64.81501,-27.2385 l -4.33655,-8.67351 c 0,0 9.45656,-15.11693 1.89312,-22.68036 -7.56342,-7.55391 -7.56342,-15.11733 -7.56342,-15.11733 0,0 -15.11692,15.11733 -22.68036,7.56342 -7.55391,-7.56342 -7.55391,0 -15.11733,-15.12684 -7.56342,-15.11694 7.56342,-22.6783 7.56342,-22.6783 0,0 0,-15.1194 7.55391,-15.1194 7.56344,0 15.12686,-15.11981 30.24378,0 0,0 8.73842,-5.8241 21.1023,-7.24878 -3.87972,-9.08117 -9.19281,-17.39994 -15.66559,-24.66942 -1.35648,0.97447 -3.13344,1.6765 -5.43671,1.6765 -7.56342,0 7.56344,15.12189 0,15.12189 -7.56342,0 -7.56342,-7.56095 -15.11692,-7.56095 -7.56342,0 -7.56342,7.56095 -15.12686,15.11982 -7.55391,7.56094 0,0 -7.55391,-7.55887 -7.56342,-7.56095 15.11735,0 7.55391,-7.56095 -7.55391,-7.56094 7.56344,-7.56094 7.56344,-15.1194 0,-5.9316 9.30234,-7.20912 13.31268,-7.48612 -4.36011,-3.14502 -9.01376,-5.91298 -13.31268,-7.63577 7.56342,7.56094 -7.56344,15.12189 -15.11735,15.12189 -7.10616,0 -0.86738,-13.3429 -0.084,-21.22589 -7.78792,-2.18048 -16.00416,-3.34636 -24.49038,-3.34636 z m -90.72266,90.72266 c 0,26.6812 11.52002,50.6771 29.85929,67.27746 l -7.17852,-14.3529 c -7.56095,0 -11.34059,-17.01048 -11.34059,-24.5739 0,-6.06678 -2.43432,-10.916 0.51059,-16.50237 -10.66668,-10.71299 -4.29024,-4.90502 -4.29024,-11.84829 0,-3.59979 -3.42697,-7.19712 -7.01769,-9.98121 -0.35886,3.27815 -0.54284,6.60755 -0.54284,9.98121 z"
+         id="path4737-3-2" />
+      <text
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_4.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         transform="matrix(0.97591676,0.21814324,-0.21814324,0.97591676,471.5189,344.58283)"
+         sodipodi:linespacing="125%"
+         id="text3387-4-1-8-9-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"
+         x="493.38281"
+         y="-66.589539"><textPath
+           id="textPath4364-3-0-2"
+           xlink:href="#path4359-1-10-1"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1"
+   id="tspan3417-8-61-3-6">GISupport</tspan></textPath></text>
+    </g>
+    <g
+       transform="translate(-373.35238,427.09249)"
+       id="g5966">
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_5.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path103000-4-2-8"
+         d="m 574.1707,635.26706 c 84.8463,0 154.05151,69.21766 154.05151,154.07638 0,84.83376 -69.20521,154.02647 -154.05151,154.02647 -84.8463,0 -154.05151,-69.19271 -154.05151,-154.02647 0,-84.85872 69.20521,-154.07638 154.05151,-154.07638"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_5.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+         id="path103004-3-7-2"
+         d="m 574.1707,635.26706 c 84.8463,0 154.05151,69.21766 154.05151,154.07638 0,84.83376 -69.20521,154.02647 -154.05151,154.02647 -84.8463,0 -154.05151,-69.19271 -154.05151,-154.02647 0,-84.85872 69.20521,-154.07638 154.05151,-154.07638 z"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_5.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="fill:none;stroke:#231f20;stroke-width:4.6061902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:1"
+         id="path103036-24-8-3"
+         d="m 574.1707,683.59334 c 58.23275,0 105.75516,47.52239 105.75516,105.74261 0,58.22023 -47.52241,105.74262 -105.75516,105.74262 -58.25772,0 -105.7302,-47.52239 -105.7302,-105.74262 0,-58.22022 47.47248,-105.74261 105.7302,-105.74261 z"
+         inkscape:connector-curvature="0" />
+      <text
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_5.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         transform="translate(222.83324,568.6518)"
+         y="462.90103"
+         x="-148.56126"
+         sodipodi:linespacing="125%"
+         id="text3387-4-7-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><textPath
+           id="textPath4403-5-4-50"
+           xlink:href="#path103036-1-8-8-1"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1"
+   id="tspan3417-84-6-2">ICRC</tspan></textPath></text>
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_5.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4281-1-6-1"
+         d="m 515.03592,922.09427 29.29287,11.35385 27.39641,1.90026 30.61955,-2.85039 31.42529,-10.45147"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.2249763px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_5.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:connector-curvature="0"
+         id="path4596-4-5-6"
+         d="m 463.91995,761.73624 c 11.62246,-48.59616 59.31023,-87.37461 109.42537,-86.71076 l 0,0 c 46.02324,-1.49026 89.56965,28.60102 106.75977,70.7832 2.1833,4.99088 3.93495,10.12669 5.27088,15.35483"
+         style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_5.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:connector-curvature="0"
+         id="path4598-4-1-5"
+         d="m 515.24006,922.34991 c 3.4617,1.47895 7.00349,2.80711 10.62089,3.97439 34.60652,12.84198 73.7261,10.2898 107.45864,-4.3178"
+         style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.61299992;stroke-dasharray:none;stroke-opacity:0" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_5.png"
+         style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path103040-3-2-0-3"
+         d="m 548.28361,763.4242 0,-62.21255 51.78862,0 0,62.21255 62.19816,0 0,51.81743 -62.19816,0 0,62.18369 -51.78862,0 0,-62.18369 -62.21259,0 0,-51.81742 62.21259,0 z"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_5.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         style="opacity:0.98999999;fill:#231f20;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m 574.17212,728.35465 c 33.67013,0 60.96243,27.29512 60.96243,60.96526 0,33.67014 -27.29229,60.96242 -60.96243,60.96242 -33.67015,0 -60.96528,-27.29228 -60.96528,-60.96242 0,-33.67014 27.29513,-60.96526 60.96528,-60.96526 z m 0,8.70902 c -2.64313,0 -5.24171,0.19598 -7.7798,0.57487 -0.54225,1.18308 -0.92922,2.48165 -0.92922,3.78024 0,4.35389 -4.35511,-4.35511 -8.71021,4.35389 -4.35367,8.71022 0,0 0,8.71022 0,4.35367 -6.30238,1.20332 -4.35367,2.17684 4.35367,2.17707 4.35367,2.17707 0,6.53217 0,0 -8.71021,-4.3551 -8.71021,0 0,4.35511 -4.35367,4.35511 -8.70877,4.35511 -4.35511,0 0,8.70878 -4.35511,8.70878 -3.34801,0 -1.5472,-5.14858 -4.4949,-7.52832 -1.11996,2.61073 -2.03442,5.33006 -2.72074,8.13962 2.93411,2.62956 3.42588,13.01698 7.21564,16.8096 4.35511,-4.35653 4.35511,0 8.71021,0 4.35367,0 4.35367,0 6.53193,4.35105 4.35393,0 6.5322,4.35653 10.88586,8.71307 4.3551,4.35106 13.06413,4.35106 13.06413,8.70734 0,4.35654 -4.35392,0 -4.35392,8.70759 0,4.35654 0,4.35654 -4.35511,4.35654 -2.74217,0 -5.48435,5.17835 -7.13895,9.01241 6.21497,2.61073 13.04126,4.05028 20.20308,4.05028 14.62727,0 27.84715,-6.00564 37.33345,-15.68937 l -2.49786,-4.99595 c 0,0 5.44698,-8.70734 1.09044,-13.06388 -4.35653,-4.35105 -4.35653,-8.70758 -4.35653,-8.70758 0,0 -8.70734,8.70758 -13.06388,4.35653 -4.35105,-4.35653 -4.35105,0 -8.70759,-8.71307 -4.35653,-8.70735 4.35654,-13.06269 4.35654,-13.06269 0,0 0,-8.70878 4.35105,-8.70878 4.35654,0 8.71307,-8.70902 17.42041,0 0,0 5.03333,-3.35468 12.15494,-4.17529 -2.23473,-5.23077 -5.29506,-10.02237 -9.0234,-14.2096 -0.78132,0.5613 -1.80486,0.96567 -3.13154,0.96567 -4.35653,0 4.35654,8.7102 0,8.7102 -4.35653,0 -4.35653,-4.3551 -8.70734,-4.3551 -4.35653,0 -4.35653,4.3551 -8.71307,8.70902 -4.35105,4.3551 0,0 -4.35105,-4.35392 -4.35654,-4.3551 8.70759,0 4.35105,-4.3551 -4.35105,-4.3551 4.35654,-4.3551 4.35654,-8.70877 0,-3.41661 5.35815,-4.15245 7.6681,-4.312 -2.51142,-1.81154 -5.19193,-3.40589 -7.6681,-4.39821 4.35653,4.3551 -4.35654,8.71021 -8.70759,8.71021 -4.09315,0 -0.49961,-7.68552 -0.0484,-12.22612 -4.48585,-1.25595 -9.2184,-1.9275 -14.10646,-1.9275 z m -52.25626,52.25624 c 0,15.36837 6.63554,29.19002 17.19896,38.75182 l -4.13484,-8.26727 c -4.3551,0 -6.53218,-9.79803 -6.53218,-14.15456 0,-3.49447 -1.40216,-6.28762 0.2941,-9.50536 -6.144,-6.17069 -2.47117,-2.8253 -2.47117,-6.82463 0,-2.07347 -1.97394,-4.14553 -4.04219,-5.74916 -0.2067,1.88821 -0.31268,3.80594 -0.31268,5.74916 z"
+         id="path4737-3-0" />
+      <text
+         inkscape:export-filename="C:\Users\A052126\Desktop\gisupport_logos\gisupport_logo4_5.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         transform="matrix(0.97591676,0.21814324,-0.21814324,0.97591676,471.5189,344.58283)"
+         sodipodi:linespacing="125%"
+         id="text3387-4-1-8-9-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:0px;word-spacing:0px;fill:#231f20;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"
+         x="493.38281"
+         y="-66.589539"><textPath
+           id="textPath4364-3-0-8"
+           xlink:href="#path4359-1-10-3"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';letter-spacing:5px;fill:#231f20;fill-opacity:1"
+   id="tspan3417-8-61-3-9">GISupport</tspan></textPath></text>
+    </g>
+  </g>
+</svg>
