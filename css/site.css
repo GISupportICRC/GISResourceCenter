@@ -68,7 +68,7 @@ html,body,h1,h2,h3,h4,h5,h6 {
 
 }
 .header-title, .header-carousel{
-	padding-top: 80px;
+	padding-top: 20px;
 }
 
 .header-title h1 {
@@ -83,7 +83,6 @@ html,body,h1,h2,h3,h4,h5,h6 {
 	color: #2C3E50;
 	line-height: 1.5;
 }
-
 .carousel-inner .item {
 	margin-top:20px;
 	margin-bottom:20px;
@@ -233,7 +232,7 @@ i.satellite-icon:hover {
 }
 .portfolioElement {
 	padding: 1em;
-	min-height: 380px;  /*set to largest thumbnail, so all boxes match*/
+	min-height: 400px;  /*set to largest thumbnail, so all boxes match*/
 }
 .portfolioElement a {
 	text-decoration: none;
@@ -253,11 +252,17 @@ i.satellite-icon:hover {
 .ih-item.circle {
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: auto 220px
+	background-size: auto 220px;
+	box-shadow: 0px 0px 10px #999;
 }
 
 /* Portfolio Filtering */
 .filter-button{
+	width: 100%;
+	text-align: left;
+	border-radius: 0px;
+}
+.morefilter-button{
 	width: 100%;
 	text-align: left;
 	border-radius: 0px;
@@ -292,6 +297,23 @@ i.satellite-icon:hover {
   outline: 0;
   color:#f5f5f5;
 }
+.ui-autocomplete {
+  max-height: 200px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+
+ * html .ui-autocomplete {
+  height: 100px;
+ }
+ 
+ .ui-autocomplete-input {
+	height: 34px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #BDBDBD;
+ }
 
 /* Filtered item not displayed */
 .noMatch{
@@ -312,11 +334,25 @@ i.satellite-icon:hover {
 	border-radius: 0px;
 }
 .input-group-navbar {
-	margin-top: -8px;
 }
 .search-option-descr{
 	color: #fff;
 }
+
+.searchproductinput{
+	width: 80px;
+	display: inline-block;
+	
+}
+.searchproductsbutton{
+	height: 34px;
+	width: 30px;
+	background-color: #F2F2F2;
+	text-align: center;
+	text-indent: -2px;
+	display: inline-block;
+}
+
 
 /* MAP */
 /*#map {
@@ -334,3 +370,5 @@ footer {
   padding: 50px 0;
   height: 70%;
 }
+
+
