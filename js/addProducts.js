@@ -1,5 +1,6 @@
 // code adapted from https://github.com/AmericanRedCross/nepal-maps/blob/gh-pages/js/main.js
 
+var dataProductsGIS;
 var thumbnails;
 
 var unitButtons;
@@ -19,49 +20,54 @@ var platformTags = [];
 var typeTags = [];
 var yearTags = [];
 var confidentialityTags = [];
+var nameTags = [];
+
+var nameForItemSearch;
+document.getElementById("searchproducts").value = "";
 
 function openLink(item){
-	
-	debugger;
-	
-	/*
-	if(d3.select(item.parentNode).classed('Web-map')){
-		var thisUrl = $(item).find('.thumbnail-link').attr('href');
-		window.open(thisUrl);
-	} else {
-		var modalDescription = $(item).find('.modalDescription').html();
-		var mapJpg = $(item).find('img').attr("data-original").slice(0,-10) + '_thumb.jpg';
-		var img_maxHeight = (windowHeight*0.45).toString() + "px";
-		$(".modal-detailedDescription").empty();
-		$(".modal-detailedDescription").html(modalDescription);
-		$(".modal-img").css('max-height', img_maxHeight);
-		$(".modal-img").attr('src', mapJpg);
-		$('#myModal').modal();
-	}
-	*/
-
 	window.open(link);
 }
 
 
 function getMeta() {
-	var dsv = d3.dsv(";", "text/plain");
-	//d3.csv("data/products.csv", function(metadata){
+	var dsv = d3.dsv(",", "text/plain; charset=ISO-8859-1");
 	dsv("data/products.csv", function(metadata){
-		//console.log(products);
-		generateCarousel(metadata);
-		generateThumbnails(metadata);
+		console.log(metadata);
+		for (i=0;i<metadata.length;i++){
+			if (metadata[i].show === "no") {
+				metadata.splice(i,1);
+			}
+		}
+		dataProductsGIS = metadata;
+		generateCarousel("initialCarousel", metadata);
+		generateThumbnails("portfolioElement", metadata);
 	});
+	
 }
 
-function generateCarousel(metadata) {
-	//console.log(metadata);
+function generateCarousel(classItem ,metadata) {
+	
+	function showLastUpdates(){
+		ProductArray = dataProductsGIS;
+		ProductArray.sort(function(a,b){
+			return parseFloat((b.publication_date).replace(/-/g,"")) - parseFloat((a.publication_date).replace(/-/g,""));
+		});
+		var lastUpdates = [];
+		for (i=0;i<ProductArray.length;i++){
+			lastUpdates.push(ProductArray[i]);
+		}
+		console.log(lastUpdates);
+		for (i=0;i<lastUpdates.length;i++){
+			$("#lastupdates").append('<div>' + (lastUpdates[i].publication_date).replace(/-/g,".") + ' - <a href="' + lastUpdates[i].link + '" target="_blank" style="color:#0431B4;">' + lastUpdates[i].name + '</a><span style="color:#626565; text-shadow:"> | ' + lastUpdates[i].product_type_name + '<span></div></br>');
+		}	
+	}
 	
 
 	
 	function generateCarouselItemHtml(item){
 		htmlStr = 
-			'<div class="item">' + //onclick="openLink(this);">' +
+			'<div class="item '+classItem+'" id="' + item.code + '_carousel">' +
 				'<img src="' + item.thumbnail + '" alt="Image not available" style="display: block;">' +
 				'<div class="container">' +
 					'<a class="carousel-caption" href="' + item.link + '" target="_blank">' +
@@ -73,7 +79,7 @@ function generateCarousel(metadata) {
 		return htmlStr;
 	}
 	
-	var highlightedN = 0;
+/*	var highlightedN = 0;
 	metadata.forEach(function(i) {
 		if (i.highlight == "yes") {
 						
@@ -95,23 +101,17 @@ function generateCarousel(metadata) {
 			
 		}
 	});
+*/
+	showLastUpdates();
 }
 
-function generateThumbnails(metadata){
+function generateThumbnails(classItem, metadata){
 	
 	var links = [];
-	/*function isLab(type){
-		if (type == "lab") { return " | Lab"; }
-		else { return ""; }
-	}
-	function isLabTesting(type){
-		if (type == "lab_testing") { return " | Lab Testing"; }
-		else { return ""; }
-	}*/
 	
 	function dateStr2YearClass(date) {
 		if (date != "") {
-			var year = date.split(".")[2];
+			var year = date.split("-")[0];
 			//return 'year-' + year;
 			return year;
 		}		
@@ -119,34 +119,20 @@ function generateThumbnails(metadata){
 	
 	function generateThumbnailHtml(item){
 		var itemHtml = 
-			/*'<div class="col-md-3 text-center portfolioElement" id="' + item.id_str + 
-			'"><!-- circle --><div class="ih-item circle colored effect13 from_left_and_right">' +
-					'<a href="' + item.link + '" id="' + item.code + 
-						'"><div class="img"><img src="' + item.thumbnail + '" alt="image not available"></div>' +
-							'<div class="info"><div class="info-back">' +
-								'<h3>' + item.name + '</h3>' +
-								'<p>' + item.confidentiality_name + '</p>' +
-							'</div></div></a></div><!-- end circle -->' +
-				'<h4>' + item.name + '</h4>' +
-				'<p class="product-description"><span style="font-weight:bold;">' + item.icrc_unit_name + isLab(item.product_type_code) + '</span> | ' + item.description + '</p></div>';
-		*/
-			'<div class="col-md-3 text-center portfolioElement" id="' + item.id_str + 
+			'<div class="col-md-3 text-center ' +classItem+ '" id="' + item.id_str + 
 			'"><!-- circle --><div class="ih-item circle colored effect13 from_left_and_right" id="' + item.code + '">' +
 					'<a href="' + item.link +  
-						'" target="_blank"><div class="img">' +
-						//'<img src="' + item.thumbnail + '" alt="image not available">' +
+						'" target="_blank" id="' + item.code + '"><div class="img" id="' + item.code + '">' +
 						'</div>' +
-						//'">' +
-							'<div class="info"><div class="info-back">' +
+							'<div class="info" id="' + item.code + '"><div class="info-back" id="' + item.code + '">' +
 								'<h3>' + item.name + '</h3>' +
-								'<p>' + item.confidentiality_name + '</p>' +
+								'<p style="color:#cdcdcd;font-weight:bold;">' + item.product_type_name + '</p>' +
 							'</div></div>' +
 							'</a>' +
 							'</div><!-- end circle -->' +
-				'<h4>' + item.name + '</h4>' +
-				//'<p class="product-description"><span style="font-weight:bold;">' + item.icrc_unit_name + isLab(item.product_type_code) + isLabTesting(item.product_type_code) + '</span> | ' + item.description + '</p>' +
-				'<p class="product-description"><span style="font-weight:bold;">' + item.icrc_unit_name + " | " + item.product_type_code + '</span> | ' + item.description + '</p>' +
-				'<a style="color:#428bca;font-style:italic;" href="' + item.bitly + '">' + item.bitly + '</a></div>';
+				'<h4 id="' + item.code + '">' + item.name + '</h4>' +
+				'<p class="product-description" id="' + item.code + '"><span style="font-weight:bold;" id="' + item.code + '">' + item.icrc_unit_name + " | " + item.confidentiality_name + " | " + item.product_type_name + '</span> | ' + item.description + '</p>' +
+				'<a style="color:#428bca;font-style:italic;" href="' + item.bitly + '" id="' + item.code + '">' + item.bitly + '</a></div>';
 		
 		
 		
@@ -163,30 +149,31 @@ function generateThumbnails(metadata){
     thumbnails.each(function(d){
         var element = d3.select(this);
 		
+		
         // Add classes to thumbnails for filtering
-		element.classed(d.icrc_unit_code, true);
-        element.classed(d.platform_code, true);
-		element.classed(d.product_type_code, true);
+		element.classed(d.icrc_unit_name, true);
+        element.classed(d.platform_name, true);
+		element.classed(d.product_type_name, true);
 		element.classed(dateStr2YearClass(d.publication_date), true);
 		element.classed(d.confidentiality_name, true);
 
         // build arrays of tags
         // Units
-		var itemUnit = d.icrc_unit_code.match(/\S+/g);
+		var itemUnit = d.icrc_unit_name.match(/^[\s\S]+/g);
         $.each(itemUnit, function(index, unit){
             if (unitTags.indexOf(unit) === -1){
                 unitTags.push(unit);
             }
         });
 		// Platforms
-        var itemPlatform = d.platform_code.match(/\S+/g);
+        var itemPlatform = d.platform_name.match(/^[\s\S]+/g);
         $.each(itemPlatform, function(index, platform){
             if (platformTags.indexOf(platform) === -1){
                 platformTags.push(platform);
             }
         });
 		// Types
-		var itemType = d.product_type_code.match(/\S+/g);
+		var itemType = d.product_type_name.match(/^[\s\S]+/g);
         $.each(itemType, function(index, type){
             if (typeTags.indexOf(type) === -1){
                 typeTags.push(type);
@@ -202,7 +189,7 @@ function generateThumbnails(metadata){
 				}
 			});
 		}
-		// Years
+		// Confidentiality
 		if (d.confidentiality_name != "") {
 			var itemConfidentiality = d.confidentiality_name.match(/\S+/g);
 			$.each(itemConfidentiality, function(index, confidentiality){
@@ -211,6 +198,13 @@ function generateThumbnails(metadata){
 				}
 			});
 		}
+		// Names
+		var itemName = d.name.match(/^[\s\S]+/g);
+        $.each(itemName, function(index, name){
+            if (nameTags.indexOf(name) === -1){
+                nameTags.push(name);
+            }
+        });
       }
     )
 	
@@ -259,8 +253,8 @@ function generateFilterButtons(){
     
 	// Unit buttons
 	unitTags.sort();
-    var unitFilterHtml = '<button id="ALL-UNIT" class="btn btn-small btn-unit filtering all filter-button" type="button" onclick="toggleFilter('+"'ALL-UNIT'"+', this);"'+
-        '>All<span class="glyphicon glyphicon-check" style="float:right;"></span></button>';
+    var unitFilterHtml = '<button id="ALL-UNIT" class="btn btn-small btn-unit filtering all filter-button" value="wsfs" style="float:left;" type="button" onclick="toggleFilter('+"'ALL-UNIT'"+', this);"'+
+        '>All <span class="glyphicon glyphicon-check" style="float:right;"></span></div></button>';
     $.each(unitTags, function(index, tag){
         var itemHtml = '<button id="'+tag+'" class="btn btn-small btn-unit filter-button" type="button" onclick="toggleFilter('+"'"+tag+"'"+', this);">'+tag.toUpperCase()+
             '<span class="glyphicon glyphicon-unchecked" style="float:right;"></span></button>';
@@ -316,14 +310,16 @@ function generateFilterButtons(){
     });
     $('#confidentialityButtons').html(confidentialityFilterHtml);
     confidentialityButtons = $("#confidentialityButtons").children();
+	
+	$("#landmarkforsearch").append('<div class="col-md-2" style="width:100%"> <div id="goforsearch" style="height:100%;">&nbsp</div></div>');
 }
 
 // filter function
 // ===============
-function toggleFilter (filter, element) {
-    // set unit, platform, type, year, confidentiality to All, when no thumbnails are showing and refresh filters option is clicked
-    if(filter === "REFRESH"){
-        // Unit buttons
+
+function resetFilterButtons()	{
+	
+	// Unit buttons
 		$.each(unitButtons, function(i, button){
             $(button).children().removeClass("glyphicon-check"); // span is children of button
             $(button).children().addClass("glyphicon-unchecked");
@@ -368,6 +364,20 @@ function toggleFilter (filter, element) {
         $("#ALL-CONFIDENTIALITY").children().removeClass("glyphicon-unchecked");
         $("#ALL-CONFIDENTIALITY").children().addClass("glyphicon-check");
         $("#ALL-CONFIDENTIALITY").addClass("filtering");
+}
+
+function toggleFilter (filter, element) {
+	
+    // set unit, platform, type, year, confidentiality to All, when no thumbnails are showing and refresh filters option is clicked
+    if(filter === "REFRESH"){
+		document.getElementById("searchproducts").value = "";
+		for (i=0;i<dataProductsGIS.length;i++){
+		$('#' + dataProductsGIS[i].id_str).show();
+		$('#' + dataProductsGIS[i].code).show();
+		$('#' + dataProductsGIS[i].code + '_carousel').show();
+		};
+        
+		resetFilterButtons();
 
     } else {
     // if a filter button is clicked
@@ -460,8 +470,16 @@ function toggleFilter (filter, element) {
     })
 	
     toggleThumbnails();
+	
 }
 
+/*$(function() {
+    var availableTags = nameTags;
+    $( "#searchproducts" ).autocomplete({
+      source: availableTags
+    });
+  });
+*/
 function toggleThumbnails(){
 
   thumbnails.each(function(d){
@@ -517,8 +535,69 @@ function toggleThumbnails(){
         thisThumbnail.classed('noMatch', true);
     }
   });
-
 }
 
-
 getMeta();
+
+$(function() {
+    var availableTags = nameTags;
+    $('#searchproducts').autocomplete({
+      source: availableTags
+    });
+	});
+	
+function search_Products(inputValue){
+	
+	var searchedItemName = inputValue;
+	var searchedItemRank;
+	
+	for (i=0;i<dataProductsGIS.length;i++){
+		if (dataProductsGIS[i].name === searchedItemName) {
+			searchedItemRank = i;
+		}
+	};
+	
+	for (i=0;i<dataProductsGIS.length;i++){
+			$('#' + dataProductsGIS[i].id_str).show();
+			$('#' + dataProductsGIS[i].code).show();
+			$('#' + dataProductsGIS[i].code + '_carousel').show();
+	};
+	
+	for (i=0;i<dataProductsGIS.length;i++){
+		if (dataProductsGIS[i].code !== dataProductsGIS[searchedItemRank].code) {
+			$('#' + dataProductsGIS[i].id_str).hide();
+			$('#' + dataProductsGIS[i].code).hide();
+			$('#' + dataProductsGIS[i].code + '_carousel').hide();
+		}
+	};
+	
+};
+
+	$("#searchproducts").click(function(){
+	$("#refreshfilterbutton").click();
+/*	if($("#goforsearch").length != 0) {
+		var goForSearch = document.getElementById("goforsearch");
+		goForSearch.parentNode.removeChild(goForSearch);
+		}
+*/
+});
+
+	$("#searchproducts").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#searchproductsbutton").click();
+    }
+});
+
+	$("#searchproductsbutton").click(function(event){
+		$('html, body').animate({
+			scrollTop: $("#goforsearch").offset().top,
+//			bottom: "+=100px",
+//			scrollTop: "1850px",
+        }, 100);
+});
+
+	$('#search-header-btn').click(function(){
+	window.open("http://search.gva.icrc.priv:15000/resourcecentre/page/search?cloudview.r=f%2FSource%2Fmaps&cloudview.s=desc%28document_lastmodifieddate%29");
+});
+
+

@@ -51,9 +51,6 @@ window.onload = function() {
 	// *** START - Service events ***
 	$("#service-maps").click(function (){ // go to map carousel
 		searchMap('');
-		/*$('html,body').animate({
-			scrollTop: $('#calltoaction').offset().top // - 80
-		}, 1000);*/
 	});
 	$("#service-web").click(function (){ // go to map carousel
 		$('html,body').animate({
@@ -65,9 +62,13 @@ window.onload = function() {
 			scrollTop: $('#contact').offset().top - 60
 		}, 1000);	
 	});	
+	
+//	location.reload(true);
+}
 	// *** END - Service events ***
 	
 	// *** START - Call to action ***
+/*	
 	function searchMap(text){
 		console.log(text);
 		//http://gvacmswb02p.gva.icrc.priv:15000/resourcecentre/page/search?global_merged.sa=0&rss_feed.context=start%253D0%2526q%253D%252528afghanistan%252520%252520%252529%252520AND%252520NOT%252520is_reporting%25253A1%2526nresults%253D10%2526applicationId%253Ddefault%2526lang%253Den%2526logic%253DIntranetDB&rss_feed.r=%2BTop%2Fsource%2Fmaps&q=afghanistan&global_merged.context=start%253D0%2526q%253D%252528afghanistan%252520%252520%252529%252520AND%252520NOT%252520is_reporting%25253A1%2526nresults%253D10%2526applicationId%253Ddefault%2526lang%253Den%2526logic%253DIntranetDB&rss_feed.page=1&global_merged.page=1&global_merged.s=lastmodifieddate&global_merged.r=%2BTop%2Fsource%2Fmaps
@@ -95,6 +96,7 @@ window.onload = function() {
 	});
 	$('#search-header-btn').click(function (){
 		searchMap($( "#search-header-input" ).val());
-	});
+	});/*
 	// *** END - Call to action ***
 }
+*/
