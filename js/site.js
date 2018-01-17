@@ -1,10 +1,6 @@
 
 window.onload = function() {
 	
-<<<<<<< HEAD
-
-=======
->>>>>>> remotes/origin/gh-pages
 	// *** START - load map from cartodb ***
 	/*
 	cartodb.createVis('map', 'https://icrc.cartodb.com/api/v2/viz/2c05f200-3ff3-11e3-a2b1-3085a9a9563c/viz.json', {
@@ -103,7 +99,6 @@ window.onload = function() {
 	});/*
 	// *** END - Call to action ***
 }
-<<<<<<< HEAD
 */
 
  $.ajax({
@@ -134,6 +129,3 @@ window.onload = function() {
             }
         }
        });
-=======
-*/
->>>>>>> remotes/origin/gh-pages

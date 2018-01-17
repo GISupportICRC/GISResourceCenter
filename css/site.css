@@ -1,9 +1,5 @@
 /* Global Styles */
 
-<<<<<<< HEAD
-
-=======
->>>>>>> remotes/origin/gh-pages
 html,
 body {
   height: 100%;
@@ -28,14 +24,11 @@ html,body,h1,h2,h3,h4,h5,h6 {
 	}
 }
 
-<<<<<<< HEAD
 #user_id {
     color: white;
     margin-top: 20px;
 }
 
-=======
->>>>>>> remotes/origin/gh-pages
 /* NAVBAR */
 .navbar-brand {
 	font-size: 24px;

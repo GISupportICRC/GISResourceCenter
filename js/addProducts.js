@@ -51,10 +51,7 @@ function generateCarousel(classItem ,metadata) {
 	function showLastUpdates(){
 		ProductArray = dataProductsGIS;
 		ProductArray.sort(function(a,b){
-<<<<<<< HEAD
 			console.log(parseFloat((b.publication_date).replace(/-/g,"")));
-=======
->>>>>>> remotes/origin/gh-pages
 			return parseFloat((b.publication_date).replace(/-/g,"")) - parseFloat((a.publication_date).replace(/-/g,""));
 		});
 		var lastUpdates = [];
@@ -63,15 +60,11 @@ function generateCarousel(classItem ,metadata) {
 		}
 		console.log(lastUpdates);
 		for (i=0;i<lastUpdates.length;i++){
-<<<<<<< HEAD
 			var a=(lastUpdates[i].publication_date).replace(/-/g,"/");
 			var b=a.split("/");
 			var finalData=b[2]+"/"+b[1]+"/"+b[0];
 			console.log(finalData);
 			$("#lastupdates").append('<div>' + finalData + ' - <a href="' + lastUpdates[i].link + '" target="_blank" style="color:#0431B4;">' + lastUpdates[i].name + '</a><span style="color:#626565; text-shadow:"> | ' + lastUpdates[i].product_type_name + '<span></div></br>');
-=======
-			$("#lastupdates").append('<div>' + (lastUpdates[i].publication_date).replace(/-/g,".") + ' - <a href="' + lastUpdates[i].link + '" target="_blank" style="color:#0431B4;">' + lastUpdates[i].name + '</a><span style="color:#626565; text-shadow:"> | ' + lastUpdates[i].product_type_name + '<span></div></br>');
->>>>>>> remotes/origin/gh-pages
 		}	
 	}
 	
