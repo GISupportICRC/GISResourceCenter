@@ -1,8 +1,6 @@
 
 window.onload = function() {
 
-alert('e')
-	
 	// *** START - load map from cartodb ***
 	/*
 	cartodb.createVis('map', 'https://icrc.cartodb.com/api/v2/viz/2c05f200-3ff3-11e3-a2b1-3085a9a9563c/viz.json', {
