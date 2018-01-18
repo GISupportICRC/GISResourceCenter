@@ -1,5 +1,7 @@
 
 window.onload = function() {
+
+alert('e')
 	
 	// *** START - load map from cartodb ***
 	/*
