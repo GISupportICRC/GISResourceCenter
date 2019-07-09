@@ -602,7 +602,7 @@ function search_Products(inputValue){
 });
 
 	$('#search-header-btn').click(function(){
-	window.open("http://search.gva.icrc.priv:15000/resourcecentre/page/search?cloudview.r=f%2FSource%2Fmaps&cloudview.s=desc%28document_lastmodifieddate%29");
+	window.open("https://gis.ext.icrc.org/geoportalmd/catalog/search/search.page");
 });
 
 
