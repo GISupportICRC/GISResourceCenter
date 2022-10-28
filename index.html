@@ -29,62 +29,70 @@
 	
 	<!-- Custom CSS-->
 	<link rel="stylesheet" href="css/site.css" type="text/css" />
+
+	<!-- Xlsx to JSON-->
+	<script src="js/xlsx.full.min.js" type="text/javascript"></script>
   </head>
 
   <body>
 		
 	<!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="padding-top:10px; padding-bottom: 10px;">
-        <div class="container-fluid col-md-12">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="padding-top:10px; padding-bottom: 10px;">
+        <div class="container-fluid">
+        	<div class="navbar-header">
+	      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	      		</button>
+				<a class="navbar-brand" href="#">
+				    <img src="img/logo.png" alt="ICRC" height="40em" style="margin-right:20px; padding-left: 20px;">
+				</a>
+				<h1>GIS Resource Center | <small></small></h1>
+	    	</div>
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="col-md-3">
-            	<h1 id="R_C"><img src="img/logo.png" alt="ICRC" height="40px" style="margin-right:20px;"><a href="#top">GIS Resource Center</a> |</h1>
-            </div>
-           <!-- <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-				
-            </div>-->
-			
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="col-md-7 collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding-top:12px;font-weight:bold;">
-					<ul class="nav navbar-nav">
-						<li>
-							<a id="Service" href="#services">Services</a>
-						</li>
-						<li>
-							<a id="Products" href="#portfolio">Products</a>
-						</li>
-						<li>
-							<a class="to-contact" >Contact</a>
-						</li>
-						<li>
-							<a onclick="startIntro();"><i class="fa fa-info-circle"></i> How-to</a>
-						</li>
-					</ul>
-				<div class="col-md-3" style="width:200px;">
-					<div class="ui-widget" style="padding-top:2px; float:left;">
+            <div class="collapse navbar-collapse" style="padding-top:12px;font-weight:bold;">
+				<ul class="nav navbar-nav" id="drpdwn-otherlinks">
+					<li>
+						<a id="Service" href="#services">Services</a>
+					</li>
+					<li>
+						<a id="Products" href="#portfolio">Products</a>
+					</li>
+					<li>
+						<a class="to-contact" href="#contact" >Contact</a>
+					</li>
+					<li>
+						<a onclick="startIntro();"><i class="fa fa-info-circle"></i> How-to</a>
+					</li>
+					<li class="ui-widget" style="padding-top:8px;">
 						<input id="searchproducts" class="searchproductinput" placeholder="Search product" style="text-indent: 12px; float: left; min-width:130px;"  onchange="search_Products(this.value);"></input>
 						<button id="searchproductsbutton" class="btn btn-default btn-mini morefilter-button searchproductsbutton" type="button" onclick="search_Products(document.getElementById('searchproducts').value);"><i class="fa fa-search"></i></button>
-					</div>
-				</div>
-				<div id="Ser_map" class="col-md-1" style="width:140px;">
-					<div style="padding-top:2px; float:right;">
-					<button class="btn btn-default btn-mini morefilter-button searchproductsbutton" id="search-header-btn" style="width:120px; float:right; display: inline-block; position: relative" type="button">Maps Search<i class="fa fa-search" style="padding-left:5px;"></i></button>
-					</div>
-				</div>
-					<a target="_blank" href="https://gis.ext.icrc.org/geoportal/site/" style="color: #999;" onMouseOver="this.style.cssText='color: white'" onMouseOut="this.style.cssText='color: #999'">
-						<div class="pull-right" style="padding-top: 3px; padding: 3px;  float:right;">
-							<img src="img/geoportal_icon.png" /><span style=" font-size: 12px;"> ICRC Geoportal</span>
-						</div>
-					</a>
-					
-          </div>
-          <h6 class="col-md-2" id="user_id"></h6>
+					</li>
+					<li id="Ser_map" class="col-md-1" style="width:140px; padding-top:8px;">
+							<button class="btn btn-default btn-mini morefilter-button searchproductsbutton" id="search-header-btn" style="width:120px; display: inline-block; position: relative" type="button">Search map <i class="fa fa-search" style="padding-left:5px;"></i></button>
+					</li>
+					<li>
+						<h6 id="user_id"></h6>
+					</li>
+					<li>
+						<a target="_blank" href="https://gis.ext.icrc.org/geoportal/"  class="tooltip-test" data-placement="bottom" data-toggle="tooltip" 
+						title="Open with Chrome or Mozilla Firefox" style="color: #999;" onMouseOver="this.style.cssText='color: white'" onMouseOut="this.style.cssText='color: #999'">
+							<div class="pull-right">
+								<img src="img/map-pin.png" /><span style=" font-size: 12px;"> ICRC Geoportal</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://gis.ext.icrc.org/portal/home/index.html" style="color: #999;" onMouseOver="this.style.cssText='color: white'" onMouseOut="this.style.cssText='color: #999'">
+							<div class="pull-right">
+								<img src="img/ArcGIS-Enterprise_icon.png" /><span style=" font-size: 12px;"> ICRC Portal for ArcGIS</span>
+							</div>
+						</a>
+					</li>
+				</ul>			
+          	</div>
+          
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -95,11 +103,15 @@
     <div id="top" class="header">
       
 		<div class="col-md-12 text-center header-title">
-		
 			<h1 style="color:#2C3E50">GISupport at ICRC</h1>
-			<h3 style="color:#c0392b"><em>Services</em> & <em>Products</em> </h3>
-			<h4 style="padding-top:1em;">GISupport puts ICRC on the map, literally!</h4>
+			<h2 style="color:#2C3E50"><em>Services</em> & <em>Products</em> </h2>	
+			<h4 style="padding-top:1em;color:#c0392b">ALL ABOUT WHERE</h4>	
+		</div>
+		<div class="col-md-12 text-center header-title">
 			
+			<video width="320" height="240" controls>				
+				<source src="https://gis.ext.icrc.org/geoportal/help/gisvideo.mp4" type="video/mp4">
+			</video> 
 		</div>
 		
 		<div class="col-md-12 text-center">
@@ -166,7 +178,7 @@
 			<div class="col-md-2 text-center">
 				<div class="service-item">
 					<i class="service-icon fa fa-compass to-contact" id="service-advice"></i>
-					<h4>Geo Advices</h4>
+					<h4>Geo-Advice</h4>
 					<p>You don't understand your maps or you can't handle your geographic data? Don't hesitate to contact us for help.</p>
 				</div>
 			</div>
@@ -187,8 +199,8 @@
 			<div class="col-md-2 text-center">
 				<div class="service-item">
 					<i class="satellite-icon to-contact" id="service-support"></i>
-					<h4>Satellite Imagery</h4>
-					<p>Procurement and analysis of satellite imagery.</p>
+					<h4>Satellite and Drone Imagery</h4>
+					<p>Procurement and analysis of satellite and drone imagery.</p>
 				</div>
 			</div>
         </div>
@@ -202,7 +214,7 @@
 	<!-- Products -->
 	<div id ="portfolio" class="portfolio">
 		<div class="container">
-			
+
 			<div class="row">
 				<div class="col-md-4 col-md-offset-4 text-center" id="filtersandproducts">
 					<h2 style="color:#e74c3c">Products</h2>
@@ -238,7 +250,11 @@
 						<div id ="confidentialityButtons"></div>
 					</div>
 					<div class="col-md-2">
-						<button id="refreshfilterbutton" class="btn btn-default btn-mini morefilter-button" type="button" onclick='toggleFilter("REFRESH", this);' style="margin-top:10px;">Refresh Filters<span class="glyphicon glyphicon-refresh" style="float:right;"></span></button>
+						<h4>Votes</h4>
+						<div id ="votesButtons"></div>
+					</div>
+					<div class="col-md-2">
+						<button id="refreshfilterbutton" class="btn btn-default btn-mini morefilter-button refreshButtonStyle" type="button" onclick='toggleFilter("REFRESH", this);' style="margin-top:10px;">Refresh Filters<span class="glyphicon glyphicon-refresh" style="float:right;"></span></button>
 					</div>
 				</div>
 			</div>
@@ -276,6 +292,7 @@
 	
     <!-- Footer -->
     <footer>
+	  <button id="latestUpdatesButton" style="position:fixed; bottom:1vh; right:1vw;" type="button" class="btn btn-primary btn-xs">Latest Updates</button>
       <div class="container">
 		<hr>
 		<p style="text-align:center;font-style:italic;">ICRC GIS 2015</p>
@@ -290,7 +307,6 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/carousel.js"></script>
 	<script src="js/holder.js"></script>
-	
 	<script src="js/d3.v3.min.js" charset="utf-8"></script>
 
 	<!--<script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.13/cartodb.js"></script>-->
@@ -320,11 +336,12 @@
 	  
 	  $('#infoIcon').on('mouseover',function(){ $('#tooltip').show(100);});
 	  $('#infoIcon').on('mouseout',function(){ $('#tooltip').hide(100);});
-    </script>
+	</script>
+	
+	<script type='text/javascript' src='tab.js'></script>
 
     	<!-- Intro JS -->
     <script src="js/intro.min.js" type="text/javascript"></script>
-	
 	<script src="js/site.js" type="text/javascript"></script>
 	<script src="js/addProducts.js" type="text/javascript"></script>
     <script src="js/information_text.js" type="text/javascript"></script>

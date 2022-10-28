@@ -1,4 +1,4 @@
-// code adapted from https://github.com/AmericanRedCross/nepal-maps/blob/gh-pages/js/main.js
+﻿// code adapted from https://github.com/AmericanRedCross/nepal-maps/blob/gh-pages/js/main.js
 
 var dataProductsGIS;
 var thumbnails;
@@ -8,18 +8,21 @@ var platformButtons;
 var typeButtons;
 var yearButtons; 
 var confidentialityButtons;
+var votesButtons;
 
 var visibleUnits = [];
 var visiblePlatforms = [];
 var visibleTypes = [];
 var visibleYears = [];
 var visibleConfidentiality = [];
+var visibleVotes = [];
 
 var unitTags = [];
 var platformTags = [];
 var typeTags = [];
 var yearTags = [];
 var confidentialityTags = [];
+var votesTags = [];
 var nameTags = [];
 
 var nameForItemSearch;
@@ -29,11 +32,76 @@ function openLink(item){
 	window.open(link);
 }
 
+window.onload = function getXLSX(){
+    var url = "data/latestUpdates.xlsx";
+
+    var req = new XMLHttpRequest();
+        req.open("GET", url, true);
+        req.responseType = "arraybuffer";
+        req.onload = function(e) {
+            var data = new Uint8Array(req.response);
+            var workbook = XLSX.read(data, {type:"array"});
+            var first_sheet_name = workbook.SheetNames[0];
+            var worksheet = workbook.Sheets[first_sheet_name];
+            transformJSON(XLSX.utils.sheet_to_json(worksheet));
+        }
+        req.send();
+}
+
+function transformJSON(data){
+    var format = data.map(function(record){
+          return { 
+            "Id"          : record["Record"],
+            "Description" : record["Description"],
+            "Image"       : record["Image"],
+            "Link"        : record["Link"]
+          } 
+    }); 
+    fillModal(format)
+}
+
+function fillModal(data){
+    $('#latestUpdatesButton').on('click', function() {
+        var content = '';
+        var images = '';
+        var links = '';
+
+        for(i in data){
+            content +=  '<strong><p>' + data[i].Description + '</p></strong>'
+            
+            if(data[i].Link){
+                content +=  '<a href="' + data[i].Link + '">Link</a>'
+            }
+
+            if(data[i].Image){
+                content +=  '<img style="display: block;margin: 0 auto;" src="' + data[i].Image + '" alt="' + data[i].Image + '" height="' + data[i].Image_height + '" width="' + data[i].Image_width + '">'
+            }
+            content += '<hr style="border:0; height:2px; text-align:center;background-image:-webkit-gradient(linear, 100% 0%, 0% 0%, from(#FFFFFF), to(#FFFFFF), color-stop(.5,#333333));" />'
+        }
+
+        $('body').append('<div class="modal fade" id="latestUpdatesModal" role="dialog">' +
+                         '<div class="modal-dialog">' +
+                            '<div class="modal-content" style="left:-790px;">' +
+                            '<div class="modal-header">' +
+                                '<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+                                '<h4 class="modal-title">Latest Updates</h4>' +
+                            '</div>' +
+                            '<div class="modal-body">' +
+                              content +
+                            '</div>' +
+                            '<div class="modal-footer">' +
+                                '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>' +
+                            '</div>' +
+                            '</div>' +
+                        '</div>' +
+                        '</div>')
+        $('#latestUpdatesModal').modal('show'); 
+    }) 
+}
 
 function getMeta() {
 	var dsv = d3.dsv(",", "text/plain; charset=ISO-8859-1");
 	dsv("data/products.csv", function(metadata){
-		console.log(metadata);
 		for (i=0;i<metadata.length;i++){
 			if (metadata[i].show === "no") {
 				metadata.splice(i,1);
@@ -51,19 +119,16 @@ function generateCarousel(classItem ,metadata) {
 	function showLastUpdates(){
 		ProductArray = dataProductsGIS;
 		ProductArray.sort(function(a,b){
-			console.log(parseFloat((b.publication_date).replace(/-/g,"")));
 			return parseFloat((b.publication_date).replace(/-/g,"")) - parseFloat((a.publication_date).replace(/-/g,""));
 		});
 		var lastUpdates = [];
 		for (i=0;i<ProductArray.length;i++){
 			lastUpdates.push(ProductArray[i]);
 		}
-		console.log(lastUpdates);
 		for (i=0;i<lastUpdates.length;i++){
 			var a=(lastUpdates[i].publication_date).replace(/-/g,"/");
 			var b=a.split("/");
 			var finalData=b[2]+"/"+b[1]+"/"+b[0];
-			console.log(finalData);
 			$("#lastupdates").append('<div>' + finalData + ' - <a href="' + lastUpdates[i].link + '" target="_blank" style="color:#0431B4;">' + lastUpdates[i].name + '</a><span style="color:#626565; text-shadow:"> | ' + lastUpdates[i].product_type_name + '<span></div></br>');
 		}	
 	}
@@ -153,14 +218,15 @@ function generateThumbnails(classItem, metadata){
 	
     thumbnails.each(function(d){
         var element = d3.select(this);
-		
-		
+	
         // Add classes to thumbnails for filtering
 		element.classed(d.icrc_unit_name, true);
         element.classed(d.platform_name, true);
 		element.classed(d.product_type_name, true);
 		element.classed(dateStr2YearClass(d.publication_date), true);
-		element.classed(d.confidentiality_name, true);
+        element.classed(d.confidentiality_name, true);
+        element.classed(d.show, true);
+        element.classed(d.votes, true);
 
         // build arrays of tags
         // Units
@@ -210,6 +276,20 @@ function generateThumbnails(classItem, metadata){
                 nameTags.push(name);
             }
         });
+
+
+        // Votes test
+        var appVotes = d.votes.match(/^[\s\S]+/g);
+        console.log(d.votes)
+        $.each(appVotes, function(index, votes){
+            if (votesTags.indexOf(votes) === -1){
+                votesTags.push(votes);
+                
+            }
+        }); 
+
+
+
       }
     )
 	
@@ -300,6 +380,7 @@ function generateFilterButtons(){
         var itemHtml = '<button id="'+tag+'" class="btn btn-small btn-class filter-button" type="button" onclick="toggleFilter('+"'"+tag+"'"+', this);">'+tag.toUpperCase()+
             '<span class="glyphicon glyphicon-unchecked" style="float:right;"></span></button>';
         yearFilterHtml += itemHtml;
+        
     });
     $('#yearButtons').html(yearFilterHtml);
     yearButtons = $("#yearButtons").children();
@@ -315,6 +396,20 @@ function generateFilterButtons(){
     });
     $('#confidentialityButtons').html(confidentialityFilterHtml);
     confidentialityButtons = $("#confidentialityButtons").children();
+
+    //Votes buttons
+    //votesTags.sort();
+    var votesFilterHtml = '<button id="ALL-VOTES" class="btn btn-small btn-class filtering all filter-button" type="button" onclick="toggleFilter('+"'ALL-VOTES'"+', this);"'+
+        '>All <span class="glyphicon glyphicon-check" style="float:right;"></span></button>';
+    $.each(votesTags.sort(function(a, b){ 
+        return b - a; 
+      }), function(index, tag){
+        var itemHtml = '<button id="'+tag+'" class="btn btn-small btn-class filter-button" type="button" onclick="toggleFilter('+"'"+tag+"'"+', this);">'+tag+
+            '<span class="glyphicon glyphicon-unchecked" style="float:right;"></span></button>';
+            votesFilterHtml += itemHtml;
+    });
+    $('#votesButtons').html(votesFilterHtml);
+    votesButtons = $("#votesButtons").children();
 	
 	$("#landmarkforsearch").append('<div class="col-md-2" style="width:100%"> <div id="goforsearch" style="height:100%;">&nbsp</div></div>');
 }
@@ -369,6 +464,17 @@ function resetFilterButtons()	{
         $("#ALL-CONFIDENTIALITY").children().removeClass("glyphicon-unchecked");
         $("#ALL-CONFIDENTIALITY").children().addClass("glyphicon-check");
         $("#ALL-CONFIDENTIALITY").addClass("filtering");
+        //Votes buttons
+        $.each(votesButtons, function(i, button){
+            $(button).children().removeClass("glyphicon-check");
+            $(button).children().addClass("glyphicon-unchecked");
+            $(button).removeClass("filtering");
+        })
+        $("#ALL-VOTES").children().removeClass("glyphicon-unchecked");
+        $("#ALL-VOTES").children().addClass("glyphicon-check");
+        $("#ALL-VOTES").addClass("filtering");
+
+        
 }
 
 function toggleFilter (filter, element) {
@@ -473,7 +579,15 @@ function toggleFilter (filter, element) {
             visibleConfidentiality.push(buttonid);
         }
     })
-	
+    // check to see what vote is active
+    visibleVotes = [];
+    $.each(votesButtons, function(i, button){
+        if($(button).hasClass("filtering")){
+            var buttonid = $(button).attr("id");
+            visibleVotes.push(buttonid);
+        }
+    })
+
     toggleThumbnails();
 	
 }
@@ -522,6 +636,12 @@ function toggleThumbnails(){
             hasConfidentiality = true;
         }
     });
+    var hasVotes = false;
+    $.each(visibleVotes, function(iC, votes){
+        if(thisThumbnail.classed(votes) || $.inArray("ALL-VOTES", visibleVotes) != -1){
+            hasVotes = true;
+        }
+    });
 	/* // Accumulative filter for cases when selected filters must be contained in the result (cases where more than one class per item is possible, eg: adm boundaries and affected areas keyword)
     var hasPlatform = true;
     if($.inArray("ALL-PLATFORM", visiblePlatforms) == -1){
@@ -534,7 +654,7 @@ function toggleThumbnails(){
 	*/
 	
 	
-    if(hasUnit === true && hasPlatform === true && hasType === true && hasYear === true && hasConfidentiality === true){ // if(hasUnit === true && hasPlatform){
+    if(hasUnit === true && hasPlatform === true && hasType === true && hasYear === true && hasConfidentiality === true && hasVotes === true){ // if(hasUnit === true && hasPlatform){
       thisThumbnail.classed('noMatch', false);
     } else {
         thisThumbnail.classed('noMatch', true);
@@ -547,7 +667,10 @@ getMeta();
 $(function() {
     var availableTags = nameTags;
     $('#searchproducts').autocomplete({
-      source: availableTags
+      source: availableTags,
+      classes: {
+          "ui-autocomplete": "searchproductresult"
+      }
     });
 	});
 	
@@ -602,7 +725,18 @@ function search_Products(inputValue){
 });
 
 	$('#search-header-btn').click(function(){
-	window.open("https://gis.ext.icrc.org/geoportalmd/catalog/search/search.page");
+	window.open("https://search.ext.icrc.org/search?tab=maps&filters=&sort_by=_score&sort_order=desc&q=maps");
 });
+
+
+//Filtering apps automatically (per years, 2017 & 2018)
+/* setTimeout(function(){
+    var elem2017 = document.getElementById("2017");
+    var elem2018 = document.getElementById("2018");
+    if (typeof elem2017.onclick == "function") {
+        elem2017.onclick.apply(elem2017);
+        elem2018.onclick.apply(elem2018);
+    }
+}, 1000); */
 
 

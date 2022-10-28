@@ -29,6 +29,12 @@ html,body,h1,h2,h3,h4,h5,h6 {
     margin-top: 20px;
 }
 
+.refreshButtonStyle{
+  position: absolute;
+  bottom: -365px;
+  right: -180px;
+}
+
 /* NAVBAR */
 .navbar-brand {
 	font-size: 24px;
@@ -53,6 +59,9 @@ html,body,h1,h2,h3,h4,h5,h6 {
 }
 .navbar a {
 	cursor: pointer;
+}
+.tooltip { 
+  pointer-events: none;
 }
 
 /* Full Page Image Header Area */
@@ -356,6 +365,25 @@ i.satellite-icon:hover {
 	text-align: center;
 	text-indent: -2px;
 	display: inline-block;
+}
+
+.searchproductresult{
+	z-index: 1035;
+}
+
+.title{
+color: #fff;
+font-weight: bold;
+font-size: 20px;
+}
+
+.title a {
+  color: #fff;
+}
+.title:hover{
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.8);
 }
 
 
